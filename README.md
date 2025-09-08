@@ -23,7 +23,7 @@ Model Training:
 
 Model Evaluation (Random Forest Example)
 
-Confusion Matrix (from your output):
+Confusion Matrix (from output):
 
 	•	True Negatives (TN): 56,852 legitimate transactions correctly identified
 	•	False Positives (FP): 12 legitimate transactions wrongly flagged as fraud
