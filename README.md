@@ -5,20 +5,23 @@ Dataset - https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 
 Process
 
-1. Data Preparation:
+Data Preparation:
+
 	•	Loaded the Kaggle dataset (creditcard.csv) containing anonymized transaction features.
 	•	Observed extreme imbalance: 99.8% normal transactions vs ~0.2% fraud.
 	•	Applied StandardScaler to normalize numeric features.
 
-2. Handling Class Imbalance:
+Handling Class Imbalance:
+
 	•	Used SMOTE (Synthetic Minority Oversampling Technique) to oversample fraud cases in the training data.
 	•	Balanced dataset enabled models to learn fraud patterns better.
 
-5. Model Training:
+Model Training:
+
 	•	Trained Logistic Regression and Random Forest classifiers.
 	•	Evaluated models using precision, recall, F1-score, and ROC-AUC (since accuracy is misleading with imbalance).
 
-7. Model Evaluation (Random Forest Example)
+Model Evaluation (Random Forest Example)
 
 Confusion Matrix (from your output):
 
