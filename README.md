@@ -14,19 +14,21 @@ Process
 	•	Used SMOTE (Synthetic Minority Oversampling Technique) to oversample fraud cases in the training data.
 	•	Balanced dataset enabled models to learn fraud patterns better.
 
-4. Model Training
+5. Model Training
 	•	Trained Logistic Regression and Random Forest classifiers.
 	•	Evaluated models using precision, recall, F1-score, and ROC-AUC (since accuracy is misleading with imbalance).
 
-5. Model Evaluation (Random Forest Example)
+6. Model Evaluation (Random Forest Example)
 
 Confusion Matrix (from your output):
+
 	•	True Negatives (TN): 56,852 legitimate transactions correctly identified
 	•	False Positives (FP): 12 legitimate transactions wrongly flagged as fraud
 	•	False Negatives (FN): 17 fraudulent transactions missed
 	•	True Positives (TP): 81 fraudulent transactions correctly detected
 
 Key Findings
+
 	•	The Random Forest model achieved strong performance, with very few false positives and a good recall rate for fraud cases.
 	•	Even with oversampling, the model managed to detect the majority of fraudulent cases while minimizing missed frauds.
 	•	Recall (sensitivity) is the most important metric here, since missing fraud (false negatives) can lead to financial losses.
